@@ -28,7 +28,7 @@ function ProductCard({ name, price, image }: productType) {
           <p className="text-base text-gray-600 md:text-lg">$ {price}</p>
         </div>
         <Link
-          to="cart"
+          to="/cart"
           className="flex items-center rounded-3xl bg-sky-600 px-2 text-white md:text-lg"
         >
           Add to Card
